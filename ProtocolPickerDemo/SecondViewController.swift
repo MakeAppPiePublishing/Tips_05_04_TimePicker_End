@@ -19,6 +19,7 @@ class SecondViewController: UIViewController{
         super.viewDidLoad()
         picker.delegate = timeComponents
         picker.dataSource = timeComponents
+        timeComponents.separator = "."
     }
     
 
